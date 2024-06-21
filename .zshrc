@@ -113,7 +113,7 @@ export PATH=$PATH:/usr/local/binaryen/bin
 
 # ALIAS
 alias c=clear
-alias em=emacs
+alias em="emacs &"
 alias emn="emacs -nw"
 alias vi=vim
 alias mk=mkdir
