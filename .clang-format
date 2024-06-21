@@ -1,0 +1,54 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+UseTab: Never
+ColumnLimit: 80
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterClass: false
+  AfterControlStatement: false
+  AfterEnum: false
+  AfterFunction: true
+  AfterNamespace: false
+  AfterStruct: false
+  AfterUnion: false
+  BeforeCatch: true
+  BeforeElse: true
+  IndentBraces: false
+AllowShortIfStatementsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortLoopsOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: false
+SpaceBeforeParens: ControlStatements
+SpaceAfterCStyleCast: true
+PointerAlignment: Left
+AlignConsecutiveDeclarations: false
+AlignEscapedNewlines: Left
+AlignOperands: true
+AlignTrailingComments: true
+AlwaysBreakAfterReturnType: None
+AlwaysBreakBeforeMultilineStrings: false
+BinPackArguments: false
+BinPackParameters: false
+BreakStringLiterals: true
+PenaltyBreakComment: 300
+PenaltyBreakFirstLessLess: 120
+PenaltyBreakBeforeFirstCallParameter: 19
+PenaltyReturnTypeOnItsOwnLine: 60
+DerivePointerAlignment: false
+SpaceBeforeCpp11BracedList: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+SpaceInEmptyParentheses: false
+FixNamespaceComments: true
+IncludeBlocks: Preserve
+IndentCaseLabels: true
+KeepEmptyLinesAtTheStartOfBlocks: false
+MaxEmptyLinesToKeep: 1
+NamespaceIndentation: None
+ReflowComments: true
+SortIncludes: true
+SortUsingDeclarations: true
+Standard: Cpp11
+IndentPPDirectives: BeforeHash
+TabWidth: 4
+ContinuationIndentWidth: 4
